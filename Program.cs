@@ -26,7 +26,7 @@ int Exponentiation(int numberA, int numberB){
 82 -> 10
 9012 -> 12
 */
-/*
+
 Console.Write("Введите число N: ");
 int numberN = Convert.ToInt32(Console.ReadLine());
 
@@ -46,13 +46,13 @@ int numberN = Convert.ToInt32(Console.ReadLine());
 
 int sumNumber = SumNumber(numberN);
 Console.WriteLine("Сумма цифр в числе: " + sumNumber);
-*/
+
 /*
 Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 6, 1, 33 -> [6, 1, 33]
 */
-int[] arr(int num, int x, int y)
+/*int[] arr(int num, int x, int y)
 {
    int[] array = new int[num];
    for(int i = 0; i < num; i++)
@@ -62,7 +62,7 @@ int[] arr(int num, int x, int y)
    return array;
 }
 int[] array = arr(8, -9, 9);
-Console.WriteLine(string.Join(", ", array));
+Console.WriteLine(string.Join(", ", array));*/
 
 
   
